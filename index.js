@@ -8,7 +8,7 @@ function procurar(){
     console.log(finalURL)
     fetch(finalURL)
     .then(function(response){
-        return response.json()
+        return response.json('')
     })
     .then(function(data){
         console.log(data[0])
